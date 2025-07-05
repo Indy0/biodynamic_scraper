@@ -1,14 +1,18 @@
 # Natural Wine Biodynamic Calendar E-Ink Display 🌿
 
+## Why I Started
+
 I started this project because of my interest and love for natural wine. The natural wine movement aims to grow and make wine using simpler, traditional methods. Including not using pesticides, using organic fertilizers, and not putting extra additives into the wine in order to "force" it to taste a certain way. Natural wine is the pure expression of the grape and it's environment.
 
 Biodynamic wine, as an extension of the biodynamic farming methods, also uses organic and simpler methods to make wine but takes it a mystical step further. Biodynamic follows a planting calendar influenced by astrological movements, the changing of star signs and planets, and sees the Earth as "*a living and receptive organism.*" 
 
-The part that interested me in biodynamics is the idea that as the planets move and cross between constellations, it determines the type of day for planting, sowing, harvesting, etc. These are **root** (earth), **water** (leaf), **flower** (air), and **fruit** (fire). According to biodynamics these *bio types* (as I call them) affect how a wine will taste when you open it. Root and leaf days are not considered good to drink wine while flower while flower and especially fruit days are considered good wine drinking days.
+The part that interested me in biodynamics is the idea that as the planets move and cross between constellations, it determines the type of day for planting, sowing, harvesting, etc. These are **root** (earth), **leaf** (water), **flower** (air), and **fruit** (fire). According to biodynamics these *bio types* (as I call them) affect how a wine will taste when you open it. Root and leaf days are not considered good to drink wine while flower and especially fruit days are considered good wine drinking days.
 
 So back to the project, this project aims to create a e-ink display using a raspberry pi to display real-time bio type: root, leaf, flower, or fruit. Then, with a simple glance, you will know whether it is a great time to open a wine or if it's better to wait a while.
 
-This project scrapes biodynamic calendar data from rhythmofnature.net, stores it locally in a SQLite database, and is designed to display the current biodynamic day type (Flower, Leaf, Root, or Fruit) on an e-ink screen connected to a Raspberry Pi.
+### How It Works
+
+This project uses Python, BeautifulSoup, and lxml to scrape biodynamic calendar data from rhythmofnature.net, it stores it locally in a SQLite database, and is designed to display the current biodynamic day type (Flower, Leaf, Root, or Fruit) on an e-ink screen connected to a Raspberry Pi. This display will then be beautifully housed in a natural, wooden frame as an art piece and my homage to natural wine. 
 
 ---
 
